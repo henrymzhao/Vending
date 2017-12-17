@@ -10,7 +10,11 @@ Things you may want to cover:
 * System dependencies
 
 * Configuration
+```
+vagrant plugin install vagrant-vbguest
+vagrant plugin install vagrant-librarian-chef-nochef
 
+```
 * Database creation
 
 * Database initialization
