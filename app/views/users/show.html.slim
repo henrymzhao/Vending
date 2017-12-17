@@ -1,3 +1,5 @@
 h1 User Profile
 
 h2 Hello #{current_user.name || current_user.email}
+
+= link_to "Change your password", edit_user_registration_path
